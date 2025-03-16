@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatibal" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	<title>Online merchent</title>
+    <link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="merchent.css" />	
+</head>
+
+<body>
+<section id="header">
+    <a href="#"><img src="img/logo.png" id="logo" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a class="active" href="merchent.html">Home</a></li>
+            <li><a href="merchent-about.html">About</a></li>
+            <li><a href="merchent-contact.html">Contact</a></li>
+            <li><a href="merchent-help.html">Help</a></li>
+            <li><a href="merchent-signup.php">Sign up</a></li>
+            <li><a href="merchent-login.php">Login</a></li>
+        </ul>
+    </div>
+</section>
+
+
+<section id="hero">
+    <h4>Make your shop know to everyone</h4>
+    <h2>Expand your business worldwide</h2>
+    <h1>Upload your garments</h1>
+    <p>Be a good entrepreneur</p>
+    <a href="merchent-login.php"><button>Register now</button></a>
+</section>
+
+<script>
+function isMobileDevice() 
+{
+    return /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+if (isMobileDevice()) 
+{
+    document.body.innerHTML = "";
+    document.body.style.backgroundColor = "white";
+    alert("OnlineClothier does not support mobile please open website only on desktop or laptop");
+}
+</script>
+</body>
+</html>

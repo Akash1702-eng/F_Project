@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+<link rel="stylesheet" type="text/css" href="log_and_signup.css">
+<title>Help</title>
+</head>
+<body>
+<section id="header">
+    <a href="#"><img src="img/logo.png" id="logo" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="track_order.php">Track Order</a></li>
+            <li><a href="signup.php">Sign Up</a></li>
+            <li><a href="cart.php"><i class="far fa-shopping-bag"></i></a></li>
+        </ul>
+    </div>
+</section>
+
+<div class="container">
+    <div class="box form-box">
+        <header>Help & Support</header><br>
+        <section id="help" class="section-p1">
+            <div class="details">
+                <h2>Getting Started</h2>
+                <p>On our customization garment website is simple and user-friendly. Begin by creating an account using your name, email address, and a secure password. Once registered, you can browse through our wide collection of garments, exploring categories like t-shirts, hoodies, and accessories. Each product page provides detailed descriptions, sizes, and customization options to guide your selection. The customization tool allows you to personalize garments by adding text, logos, or images, with real-time previews to ensure your design is perfect. After placing your order, you’ll receive an email confirmation with order details and tracking information. For additional support or inquiries during your journey, our dedicated Help section and customer support team are always available to assist you.</p>
+            </div>
+
+            <div class="video">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/dxFFH6FLETM?si=PXaPwoSB7QSFeSN5" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #000000;
+        overflow: hidden;
+        font-family: 'Spartan', sans-serif;
+        color: #fff;
+    }
+
+    .container {
+        background-image: none;
+    }
+
+    .form-box {
+        background-color: rgb(134, 134, 134);
+        width: 92%;
+        height: 80%;
+        padding: 30px 30px;
+        text-align: justify;
+        position: relative;
+        border: 1px solid transparent; 
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3); 
+        animation: borderShadowAnimation 3s infinite; 
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    @keyframes borderShadowAnimation {
+        0% {
+            border-color: #ff0000;
+            box-shadow: 0 0 15px 5px #ff0000;
+        }
+        33% {
+            border-color: #00ff00;
+            box-shadow: 0 0 15px 5px #00ff00;
+        }
+        66% {
+            border-color: #0000ff;
+            box-shadow: 0 0 15px 5px #0000ff;
+        }
+        100% {
+            border-color: #ff0000;
+            box-shadow: 0 0 15px 5px #ff0000;
+        }
+    }
+
+    #help {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #help .details {
+        width: 40%;
+    }
+
+    #help .video {
+        width: 55%;
+        height: 422px;
+    }   
+
+    #help .video iframe {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    #help .details h2 {
+        font-size: 26px;
+        line-height: 35px;
+        padding: 20px 0;
+    }
+</style>
+
+</body>
+</html>

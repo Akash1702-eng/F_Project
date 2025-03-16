@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+<link rel="stylesheet" type="text/css" href="log_and_signup.css">
+<title>Help</title>
+</head>
+<body>
+<section id="header">
+    <a href="#"><img src="img/logo.png" id="logo" class="logo" alt=""></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="merchent.html">Home</a></li>
+            <li><a href="merchent-about.html">About</a></li>
+            <li><a href="merchent-contact.html">Contact</a></li>
+            <li><a class="active" href="merchent-help.html">Help</a></li>
+            <li><a href="merchent-signup.php">Sign up</a></li>
+            <li><a href="merchent-login.php">Login</a></li>
+        </ul>
+    </div>
+</section>
+
+<div class="container">
+    <div class="box form-box">
+        <header>Help & Support</header><br>
+        <section id="help" class="section-p1">
+            <div class="details">
+                <h2>Getting Started</h2>
+                <p>The Merchant Module streamlines operations for merchants on our customization garment website, providing tools for efficient product, order, and customer management. Merchants can create accounts, set up profiles, and manage inventory by uploading products with descriptions, images, and customization options. Real-time order tracking, customer interaction, and integrated analytics empower merchants to monitor sales, track performance, and meet customer needs effectively. Secure payment processing ensures reliable transactions, while dedicated support assists with any issues. The module also enables easy handling of returns and disputes, fostering trust and satisfaction. It’s designed to help merchants grow their business and deliver excellent service.</p>
+            </div>
+
+            <div class="video">
+                <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/KGQPIi5iJVs?autoplay=1&loop=1&playlist=KGQPIi5iJVs&controls=0&rel=0&showinfo=0&modestbranding=1" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+        </section>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #000000;
+        overflow: hidden;
+        font-family: 'Spartan', sans-serif;
+        color: #fff;
+    }
+
+    .container {
+        background-image: none;
+    }
+
+    .form-box {
+        background-color: rgb(134, 134, 134);
+        width: 92%;
+        height: 80%;
+        padding: 30px 30px;
+        text-align: justify;
+        position: relative;
+        border: 1px solid transparent; 
+        box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.3); 
+        animation: borderShadowAnimation 3s infinite; 
+    }
+
+    p {
+
+        font-size: 18px;
+    }
+
+    @keyframes borderShadowAnimation {
+        0% {
+            border-color: #ff0000;
+            box-shadow: 0 0 15px 5px #ff0000;
+        }
+        33% {
+            border-color: #00ff00;
+            box-shadow: 0 0 15px 5px #00ff00;
+        }
+        66% {
+            border-color: #0000ff;
+            box-shadow: 0 0 15px 5px #0000ff;
+        }
+        100% {
+            border-color: #ff0000;
+            box-shadow: 0 0 15px 5px #ff0000;
+        }
+    }
+
+    #help {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #help .details {
+        width: 40%;
+    }
+
+    #help .video {
+        width: 55%;
+        height: 422px;
+    }   
+
+    #help .video iframe {
+        border-radius: 25px;
+        width: 100%;
+        height: 100%;
+    }
+    #help .details h2 {
+        font-size: 26px;
+        line-height: 35px;
+        padding: 20px 0;
+    }
+</style>
+
+</body>
+</html>
